@@ -1,93 +1,94 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Menus</title>
-    <style>
-        .menu {
-            width: 400px;
-            height: 550px;
-            padding: 20px;
-            margin: 20px;
-            border: 2px solid #ffb6c1;
-         
-            border-radius: 10px;
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            font-family: Arial, sans-serif;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Busy Day Schedule</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-        .breakfast {
-            background-image: url('breakfast.jpg');
-            background-color: #add8e6;
-            
-            margin: 20px;
-        }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
 
-        .lunch {
-            background-image: url('lunch.jpg');
-            background-color: #add8e6;
-           
-            margin: 20px;
-        }
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
 
-        .dinner {
-            background-image: url('dinner.jpg');
-            background-color: #add8e6;
-           
-            margin: 20px;
-        }
+    th {
+        background-color: #f2f2f2;
+    }
 
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
+    .highlight {
+        background-color: #ffc107;
+        font-weight: bold;
+    }
+</style>
 </head>
 <body>
 
-    <div class="menu breakfast">
-        <h2>Breakfast Menu</h2>
-        <ul>
-            <li>Pancakes</li>
-            <li>Eggs Benedict</li>
-            <li>French Toast</li>
-            <li>Breakfast Burrito</li>
-            <img src="https://pin.it/7C0Vv2Obg" alt="the best french toast recipe by will cook for smiles on pinterest">
-        </ul>
-    </div>
-
-    <div class="menu lunch">
-        <h2>Lunch Menu</h2>
-        <ul>
-            <li>goat cheese ans spinach crepe</li>
-            <li>Caesar Salad</li>
-            <li>Grilled Chicken Wrap</li>
-            <li>grilled cheese with tomato sauce</li>
-        </ul>
-    </div>
-
-    <div class="menu dinner">
-        <h2>Dinner Menu</h2>
-        <ul>
-            <li>garlic truffle fries</li>
-            <li>Salmon Fillet</li>
-            <li>noodle soup</li>
-            <li>Grilled Vegetables</li>
-        </ul>
-    </div>
+<div class="container">
+    <h2>My Busy Day Schedule</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+        <tr>
+            <td>08:00 AM</td>
+            <td>Breakfast</td>
+        </tr>
+        <tr class="highlight">
+            <td>09:00 AM</td>
+            <td>work meeting</td>
+        </tr>
+        <tr>
+            <td>10:30 AM</td>
+            <td>Workout</td>
+        </tr>
+        <tr class="highlight">
+            <td>12:00 PM</td>
+            <td>Lunch</td>
+        </tr>
+        <tr>
+            <td>01:30 PM</td>
+            <td>Client Call</td>
+        </tr>
+        <tr class="highlight">
+            <td>03:00 PM</td>
+            <td>Project Deadline</td>
+        </tr>
+        <tr>
+            <td>05:00 PM</td>
+            <td>Grocery Shopping</td>
+        </tr>
+        <tr class="highlight">
+            <td>07:00 PM</td>
+            <td>Dinner with Family</td>
+        </tr>
+        <tr>
+            <td>09:00 PM</td>
+            <td>Movie Night</td>
+        </tr>
+    </table>
+</div>
 
 </body>
 </html>
