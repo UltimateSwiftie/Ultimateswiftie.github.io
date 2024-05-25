@@ -1,24 +1,92 @@
 <!DOCTYPE html>
-<h1>Sunset Color Scheme</h1> <style>
-    td {
-        width: 100px;
-        height: 100px;
-        text-align: center;
-        vertical-align: middle;
-        color: white;
-        font-family: Arial, sans-serif;
-        font-weight: bold;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menus</title>
+    <style>
+        .menu {
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #ffb6c1;
+         
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
 
-    .sky-blue {
-        color: black;
-    }
-</style>
+        .breakfast {
+            background-image: url('breakfast.jpg');
+            background-color: #add8e6;
+            
+            margin: 20px;
+        }
+
+        .lunch {
+            background-image: url('lunch.jpg');
+            background-color: #add8e6;
+           
+            margin: 20px;
+        }
+
+        .dinner {
+            background-image: url('dinner.jpg');
+            background-color: #add8e6;
+           
+            margin: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-<table>
-<tr> <td style="background-color: #FF4500;">Tomato</td> <td style="background-color: #FF69B4;">Bubblegum</td> <td style="background-color: #9370DB;">Lavender dream</td> <td style="background-color: #87CEEB;" class="sky-blue">Sky blue</td> </tr>
-</table>
+
+    <div class="menu breakfast">
+        <h2>Breakfast Menu</h2>
+        <ul>
+            <li>Pancakes</li>
+            <li>Eggs Benedict</li>
+            <li>French Toast</li>
+            <li>Breakfast Burrito</li>
+        </ul>
+    </div>
+
+    <div class="menu lunch">
+        <h2>Lunch Menu</h2>
+        <ul>
+            <li>Club Sandwich</li>
+            <li>Caesar Salad</li>
+            <li>Grilled Chicken Wrap</li>
+            <li>Vegetable Soup</li>
+        </ul>
+    </div>
+
+    <div class="menu dinner">
+        <h2>Dinner Menu</h2>
+        <ul>
+            <li>Steak</li>
+            <li>Salmon Fillet</li>
+            <li>Pasta Primavera</li>
+            <li>Grilled Vegetables</li>
+        </ul>
+    </div>
+
 </body>
 </html>
-```
