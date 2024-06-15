@@ -1,9 +1,68 @@
 <!DOCTYPE html>
-<h1> how to embed a service hosted video into a website</h1>
-<h2> Find the Embed Code: Go to the video you want to embed on the service's website (e.g., YouTube). Look for the "Share" button or an option specifically for embedding. This will typically provide you with an embed code.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Image Manipulation Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
 
-Copy the Embed Code: Once you've located the embed code, copy it. It usually starts with <iframe> or <embed> and includes attributes like src that specify the URL of the video.
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-Insert the Embed Code into Your Website: Navigate to the HTML file of the webpage where you want to embed the video. Paste the embed code into the HTML where you want the video to appear. Adjust Dimensions and Options (Optional): You can adjust the width, height, and other options within the embed code or using CSS to customize the appearance and behavior of the embedded video.
+        h1 {
+            text-align: center;
+            color: #333;
+        }
 
-Test: Save your HTML file and open it in a web browser to ensure that the video is embedded correctly and displays as expected.</h2>
+        .project {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .project img {
+            max-width: 100%;
+            display: block;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project img:hover {
+            transform: scale(1.05);
+        }
+
+        .project p {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Manipulation Assignment</h1>
+
+        <div class="project">
+            <img src="source_image.jpg" alt="Project 1" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 4px; max-width: 100%; display: block;">
+            <p>Project 1: Description of the project.</p>
+        </div>
+
+        <!-- Add more project divs as needed -->
+    </div>
+</body>
+</html>
